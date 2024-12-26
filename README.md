@@ -1,4 +1,20 @@
-# go-coffeeshop
+# DevOps Implementation of go-coffeeshop
+
+This repository is a fork of [go-coffeeshop](https://github.com/thangchung/go-coffeeshop) with a focus on implementing and showcasing DevOps best practices. The original project is maintained by [Thang Chung](https://github.com/thangchung) and this fork is not affiliated with or endorsed by the original author.
+
+## Purpose of this Fork
+
+The main goals of this fork are:
+
+1. To deploy the application to a Kubernetes cluster
+2. To implement robust CI/CD pipelines using GitLab CI and Flux CD.
+3. To showcase monitoring and observability implementations with Prometheus, Graylog and Grafana.
+
+For the original project and its documentation, please refer to the [go-coffeeshop](https://github.com/thangchung/go-coffeeshop).
+
+---
+
+## Original Project README
 
 An event-driven microservices coffee shop application has been written in Golang and deployed using Nomad, Consul Connect, Vault, and Terraform.
 
